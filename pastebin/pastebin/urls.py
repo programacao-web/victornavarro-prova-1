@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.index, name='pastebin-index'),
     path('<language>/', views.language_list, name='pastebin-language'),
     path('pastes/<id>/', views.paste, name='pastebin-detail'),
+    path('new_paste', views.new_paste)
 ]

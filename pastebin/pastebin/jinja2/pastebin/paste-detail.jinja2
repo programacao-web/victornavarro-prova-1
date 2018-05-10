@@ -2,14 +2,14 @@
 
 {% block header %}
   <header>
-    <h1 class="paste-header">{{ title }}</h1>
+    <h1 class="paste-header">{{ paste.title }}</h1>
   </header>
 {% endblock %}
 
 {% block main %}
   <main class="paste-detail">
+    <p>{{ paste.content }}</p>
     <h2>Questão 2</h2>
-    <p>Conteúdo do Paste.</p>
     <ul>
       <li>50% - mostra conteúdo</li>
       <li>70% - mostra como código formatado</li>
